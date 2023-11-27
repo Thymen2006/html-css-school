@@ -1,0 +1,36 @@
+body{
+    position: sticky;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    text-align: center;
+    color: blueviolet;
+
+    background-color: brown;
+    background-image:url(foto/discordmod.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: dashed lightgoldenrodyellow thick;
+    
+
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    font-size: medium;
+
+    background-color: black;
+
+    border-style: dashed;
+    border-width: medium;
+    border-color: chartreuse;
+    border-radius: unset; 
+}
+
+ol{
+ list-style-type: disc;
+ list-style-image: url(foto/sad\ cat.jpeg);
+ list-style-position: inside;
+}
