@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-size: 60px;
+}
+a{
+    color: red;
+}
+a:hover:only-child{
+    color: gold;
+}
+a:hover{
+    color: purple;
+}
