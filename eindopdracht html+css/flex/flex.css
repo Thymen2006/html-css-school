@@ -1,0 +1,26 @@
+.flex-Container{
+    display:flex;
+
+    height: auto;
+
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+#box6{
+    order: 1;
+}
+.flex-Container div{
+    flex-basis: 22%;
+    text-align: center;
+}
+body{
+    background-color: blue;
+    font-size: 50px;
+}
+div{
+    border-style: solid;
+    border-color: black;
+}
