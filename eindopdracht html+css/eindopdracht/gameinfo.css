@@ -1,5 +1,7 @@
 body{
-    background-image: url(foto/Cyberpunk4.jpeg);
+    background-image: url(https://www.adobe.com/products/substance3d/magazine/media_1938bbbe7b97a27228666801fe20a2d25cc45c0c4.png?width=750&format=png&optimize=medium);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 10px 20px 20px 10px;
     padding: 10px 20px 20px 10px;
 
@@ -101,4 +103,3 @@ img{
     border-style: ridge;
     border-width: 5px;
 }
-
