@@ -19,6 +19,7 @@ body{
     grid-area: 1/1/1/4;
     background-color: orangered;
     text-align: center;
+    max-height: 1em;
 
     border-color: black;
     border-radius: 10px;
@@ -38,7 +39,7 @@ body{
     text-align: center;
 }
 .grid-item4{
-    grid-area: 2/2/6/3;
+    grid-area: 1/2/6/3;
     background-color: gold;
     text-align: center;
 
@@ -46,6 +47,8 @@ body{
     border-radius: 10px;
     border-style: ridge;
     border-width: 5px;
+
+    margin-top: 100px;
 }
 .grid-item5{
     grid-area: 2/3/5/4;

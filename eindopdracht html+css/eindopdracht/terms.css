@@ -1,0 +1,22 @@
+body{
+    background-color: yellowgreen;
+    text-align: center;
+}
+div{
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 5px;
+}
+#back{
+    background-color: yellowgreen;
+
+    font-size: larger;
+
+    padding: 3px;
+
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 5px;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: yellow;
+    background-image: url(foto/Cyberpunk4.jpeg);
+}
+#back{
+    background-color: yellowgreen;
+
+    font-size: larger;
+
+    padding: 3px;
+
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 5px;
+}
+nav:hover{
+    text-align: end;
+}
+form{
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 5px;
+
+    background-color: yellow;
+
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+}
+fieldset{
+    background-color: gold;
+}
+label, input{
+    margin:5px;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  div{
+    text-align: center;
+  }
