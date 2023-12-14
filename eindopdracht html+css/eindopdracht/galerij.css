@@ -1,20 +1,14 @@
 body{
-    background-image: url(foto/gameinfobackground.webp);
+    background-color: yellowgreen;
+    background-image: url(foto/backgroundfoto.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px 20px 20px 10px;
-    padding: 10px 20px 20px 10px;
-
-    font-family: Arial, Helvetica, sans-serif;
 }
 .grid-container{
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    gap:10px;
+    grid-template-rows: auto;
 }
-/* grid-area: row-start / column-start / row-end / column-end; */
 .grid-item1{  
     grid-area: 1/1/1/4;
     background-color: orangered;
@@ -29,38 +23,6 @@ body{
     padding: 15px;
 
     font-size: larger;
-}
-.grid-item2{
-    grid-area: 1/1/5/2;
-    text-align: center;
-
-    margin-top: 100px;
-}
-.grid-item3{
-    grid-area: 5/1/6/2;
-    text-align: center;
-}
-.grid-item4{
-    grid-area: 1/2/6/3;
-    background-color: gold;
-    text-align: center;
-
-    border-color: black;
-    border-radius: 10px;
-    border-style: ridge;
-    border-width: 5px;
-
-    margin-top: 100px;
-}
-.grid-item5{
-    grid-area: 1/3/5/4;
-    text-align: center;
-
-    margin-top: 100px;
-}
-.grid-item6{
-    grid-area: 5/3/6/4;
-    text-align: center;
 }
 #form{
     border-color: black;
@@ -118,13 +80,19 @@ body{
 #galerij:hover{
     background-color: orange;
 }
+.flex-container{
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: space-evenly;
+}
 img{
     border-color: black;
     border-radius: 10px;
     border-style: ridge;
     border-width: 5px;
 
-    margin-top: 5px;
+    margin: 5px;
 }
 iframe{
     border-color: black;
@@ -132,10 +100,6 @@ iframe{
     border-style: ridge;
     border-width: 5px;
 
-    margin-top: 5px;
+    margin: 5px;
 }
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+

@@ -1,17 +1,20 @@
 body{
     background-color: yellowgreen;
-    text-align: center;
 }
 div{
     border-radius: 10px;
     border-color: black;
     border-style: ridge;
     border-width: 5px;
+
+    text-align: center;
 }
 #back{
     background-color: yellowgreen;
 
     font-size: larger;
+
+    text-align: left;
 
     padding: 3px;
 
@@ -19,4 +22,20 @@ div{
     border-color: black;
     border-style: ridge;
     border-width: 5px;
+}
+#back:hover{
+    background-color: yellow;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+iframe{
+    border-color: black;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 5px;
+
+    margin: 5px;
 }

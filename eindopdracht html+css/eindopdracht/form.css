@@ -13,6 +13,9 @@ body{
     border-color: black;
     border-style: ridge;
     border-width: 5px;
+
+    animation: backwards 5s linear -1s infinite alternate forwards;
+    animation-play-state: running;
 }
 nav:hover{
     text-align: end;
@@ -41,6 +44,19 @@ label {
     display: block;
     margin: 0.5rem 0;
   }
-  div{
+div{
     text-align: center;
-  }
+}
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+iframe{
+    border-color: black;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 5px;
+
+    margin: 5px;
+}
