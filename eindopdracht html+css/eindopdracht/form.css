@@ -14,9 +14,16 @@ body{
     border-style: ridge;
     border-width: 5px;
 
-    animation: backwards 5s linear -1s infinite alternate forwards;
+    animation: mymove 5s linear -1s infinite alternate forwards;
     animation-play-state: running;
 }
+@keyframes mymove {
+    0%   {background: greenyellow;}
+    25%  {background: red;}
+    50%  {background: orange;}
+    75%  {background: orangered;}
+    100% {background: yellow;}
+  }
 nav:hover{
     text-align: end;
 }

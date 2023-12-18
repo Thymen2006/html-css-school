@@ -29,6 +29,9 @@ body{
     padding: 15px;
 
     font-size: larger;
+
+    animation: mymove 5s linear -1s infinite alternate forwards;
+    animation-play-state: running;
 }
 .grid-item2{
     grid-area: 1/1/5/2;
@@ -139,3 +142,10 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
 }
+@keyframes mymove {
+    0%   {background: greenyellow;}
+    25%  {background: red;}
+    50%  {background: orange;}
+    75%  {background: orangered;}
+    100% {background: yellow;}
+  }

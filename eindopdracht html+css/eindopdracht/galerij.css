@@ -23,6 +23,9 @@ body{
     padding: 15px;
 
     font-size: larger;
+
+    animation: mymove 5s linear -1s infinite alternate forwards;
+    animation-play-state: running;
 }
 #form{
     border-color: black;
@@ -101,5 +104,29 @@ iframe{
     border-width: 5px;
 
     margin: 5px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@keyframes mymove {
+    0%   {background: greenyellow;}
+    25%  {background: red;}
+    50%  {background: orange;}
+    75%  {background: orangered;}
+    100% {background: yellow;}
+}
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: yellow;
+
+    border-color: black;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 5px;
+
+    margin-bottom: 20px;
 }
 
