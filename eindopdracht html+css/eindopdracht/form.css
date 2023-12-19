@@ -67,3 +67,10 @@ iframe{
 
     margin: 5px;
 }
+@media (orientation:portrait){
+    footer{
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+    }
+}

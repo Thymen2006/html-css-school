@@ -48,4 +48,11 @@ iframe{
     50%  {background: orange;}
     75%  {background: orangered;}
     100% {background: yellow;}
-  }
+}
+@media (orientation:portrait){
+    footer{
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+    }
+}

@@ -148,4 +148,77 @@ footer{
     50%  {background: orange;}
     75%  {background: orangered;}
     100% {background: yellow;}
-  }
+}
+@media (orientation:portrait){
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+    }
+    footer{
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+
+        /*
+        grid-template-columns: 30% 1fr;
+        grid-auto-rows: 10px;
+        */
+    
+        gap:10px;
+    }
+    /* grid-area: row-start / column-start / row-end / column-end; */
+    .grid-item1{ 
+        background-color: orangered;
+        text-align: center;
+
+        flex-direction: row;
+        flex-flow: row;
+        order: 1;
+    
+        border-color: black;
+        border-radius: 10px;
+        border-style: ridge;
+        border-width: 5px;
+    
+        max-height: 100%;
+    
+        padding: 15px;
+    
+        font-size: larger;
+    }
+    .grid-item2{
+        display: none;
+        text-align: center;
+    }
+    .grid-item3{
+        display: none;
+        text-align: center;
+    }
+    .grid-item4{
+        background-color: gold;
+        text-align: center;
+    
+        border-color: black;
+        border-radius: 10px;
+        border-style: ridge;
+        border-width: 5px;
+
+        flex-direction: row;
+        flex-flow: row;
+        order: 2;
+    }
+    .grid-item5{
+        display: none;
+        text-align: center;
+    }
+    .grid-item6{
+        display: none;
+        text-align: center;
+    }
+}
+

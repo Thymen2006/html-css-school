@@ -129,4 +129,35 @@ footer{
 
     margin-bottom: 20px;
 }
+@media (orientation:portrait){
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+    }
+    footer{
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+    }
+    .grid-item1{ 
+        background-color: orangered;
+        text-align: center;
+
+        flex-direction: row;
+        flex-flow: row;
+        order: 1;
+    
+        border-color: black;
+        border-radius: 10px;
+        border-style: ridge;
+        border-width: 5px;
+    
+        max-height: 100%;
+    
+        padding: 15px;
+    
+        font-size: larger;
+    }
+}
 
